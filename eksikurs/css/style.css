@@ -1,0 +1,977 @@
+header .navbar {
+  border-bottom: 1px solid #b4b4b4;
+}
+
+header .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+  -webkit-justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .navbar .navbar-collapse form .number {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+header .navbar .navbar-collapse form .btn {
+  margin-left: 25px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  border: 2px solid #ff776d;
+  width: 166px;
+  height: 39px;
+  background: transparent;
+  font-size: 16px;
+  color: #ff776d;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .nav {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav li a {
+  padding: 15px;
+  font-size: 14px;
+  color: #000000;
+  text-transform: capitalize !important;
+}
+
+header .nav li a.active {
+  color: #f2382b;
+}
+
+header .nav li a:hover {
+  color: #f2382b;
+}
+
+.ekskurs {
+  position: relative;
+}
+
+.ekskurs .headerBody {
+  margin-top: 50px;
+}
+
+.ekskurs .headerBody h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  max-width: 775px;
+  margin: auto;
+}
+
+.ekskurs .headerBody h2 span {
+  letter-spacing: -4px;
+}
+
+.ekskurs .headerBody p {
+  margin: 0;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ekskurs .headerBody img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ekskurs .ekskursTitle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 70%;
+}
+
+.ekskurs .ekskursTitle button {
+  border: none;
+  background: transparent;
+  display: block;
+  margin: auto;
+}
+
+.ekskurs .ekskursTitle button i {
+  display: block;
+  line-height: 0.7;
+}
+
+.ekskurs .ekskursTitle button i:nth-child(1) {
+  color: #1f2020;
+}
+
+.ekskurs .ekskursTitle button i:nth-child(2) {
+  color: #5e6161;
+}
+
+.ekskurs .ekskursTitle button i:nth-child(3) {
+  color: #a5aaa9;
+}
+
+.ekskurs .ekskursTitle img {
+  position: absolute;
+  left: 3.3%;
+}
+
+.tours {
+  background: #afda89;
+  padding-top: 200px;
+  padding-bottom: 190px;
+  position: relative;
+}
+
+.tours::after {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  bottom: -50px;
+  right: 0%;
+}
+
+.tours::before {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  top: -50px;
+  right: 0%;
+}
+
+.tours .toursTitle h2 {
+  font-size: 72px;
+  font-family: 'PT Serif';
+  color: #413e3e;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: .5;
+  margin: 0;
+}
+
+.tours .toursTitle h4 {
+  font-size: 48px;
+  font-family: 'PT Serif';
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tours .toursTitle p {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  max-width: 396px;
+}
+
+.tours .car {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+
+.popular {
+  padding: 60px 0;
+}
+
+.popular .title h2 {
+  font-size: 36px;
+  font-family: "PT Serif";
+  color: #413e3e;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.popular .card {
+  margin: 20px;
+}
+
+.popular .card img {
+  width: 100%;
+}
+
+.popular .card .cardbody {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.popular .card .cardbody h2 {
+  font-size: 18px;
+  color: #413e3e;
+  font-weight: bold;
+  text-align: center;
+  max-width: 272px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.popular .card .cardbody .cardtext {
+  font-size: 16px;
+  color: #413e3e;
+  max-width: 342px;
+  margin-bottom: 30px;
+  margin: auto;
+}
+
+.popular .card .cardbody .students {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  background: #f2f2f2;
+  height: 40px;
+  line-height: 2.5;
+}
+
+.popular .card .cardbody .price {
+  font-size: 18px;
+  color: #413e3e;
+  font-weight: bold;
+}
+
+.popular .card .cardbody .buttonGroup {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.popular .card .cardbody .buttonGroup button {
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+
+.popular .card .cardbody .buttonGroup button:nth-child(1) {
+  border: 1px solid #b4b4b4;
+  color: #413e3e;
+  width: 112px;
+  font-size: 14px;
+}
+
+.popular .card .cardbody .buttonGroup button:nth-child(2) {
+  font-size: 16px;
+  color: #000000;
+  background-color: #afda89;
+  width: 114px;
+}
+
+.gids {
+  background: #8bccca;
+  position: relative;
+  padding: 150px 0;
+}
+
+.gids::after {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  bottom: -50px;
+  right: 0%;
+}
+
+.gids::before {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  top: -50px;
+  right: 0%;
+}
+
+.gids .title {
+  text-align: center;
+}
+
+.gids .title h3 {
+  font-size: 30px;
+  font-family: 'PT Serif', serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gids .title p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 533px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.gids .item {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.gids .item img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.gids .item h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.502);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.gids .item h3 {
+  font-size: 30px;
+  color: #413e3e;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+}
+
+.register {
+  padding-bottom: 35px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.register .container {
+  position: relative;
+}
+
+.register .pupil {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+}
+
+.register .title {
+  text-align: center;
+}
+
+.register .title img {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.register .title h3 {
+  margin-bottom: 40px;
+  max-width: 700px;
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  color: #000000;
+  font-weight: bold;
+  margin: auto;
+}
+
+.register .title p {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  color: #404040;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.register form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register form .text {
+  width: 100%;
+  margin: 20px 5px;
+  border-width: 1px;
+  border-color: #b4b4b4;
+  border-style: solid;
+  height: 33px;
+  padding-left: 5px;
+  border: 1px solid #bdbdbd;
+  background: transparent;
+}
+
+.register form .text:-ms-input-placeholder {
+  font-size: 12px;
+  color: #413e3e;
+}
+
+.register form button {
+  margin: 20px 5px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  font-size: 16px;
+  color: #000000;
+  background-color: #afda89;
+  width: 114px;
+  height: 35px;
+}
+
+.total {
+  /*   background: url('../img/totalbg.png') center;
+    background-size: cover; */
+  background: #9185be;
+  padding-bottom: 150px;
+  padding-top: 145px;
+  position: relative;
+}
+
+.total::after {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  bottom: -50px;
+  right: 0%;
+}
+
+.total::before {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  top: -50px;
+  right: 0%;
+}
+
+.total .title h3 {
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.total .post {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #fff;
+  padding: 85px 15px;
+  text-align: center;
+  height: 320px;
+  -webkit-flex-basis: 320px;
+      -ms-flex-preferred-size: 320px;
+          flex-basis: 320px;
+  margin: 30px 15px;
+}
+
+.total .post:nth-child(1) {
+  -webkit-transform: translateY(20%);
+      -ms-transform: translateY(20%);
+          transform: translateY(20%);
+}
+
+.total .post:nth-child(2) {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.total .post:nth-child(3) {
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.total .post h2 {
+  font-size: 24px;
+  font-family: 'PT Serif', serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.total .post p {
+  margin-top: auto;
+  font-size: 16px;
+  color: #000000;
+}
+
+.blog {
+  padding: 70px 0;
+}
+
+.blog h2 {
+  margin: auto;
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+  max-width: 730px;
+  margin-bottom: 55px;
+}
+
+.blog p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #413e3e;
+  font-weight: 400;
+}
+
+.blog .btn {
+  font-size: 16px;
+  color: #413e3e;
+}
+
+.discount {
+  padding-top: 145px;
+  padding-bottom: 170px;
+  position: relative;
+  background: #fe6257;
+}
+
+.discount::after {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  bottom: -50px;
+  right: 0%;
+}
+
+.discount::before {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  top: -50px;
+  right: 0%;
+}
+
+.discount .title h3 {
+  font-size: 36px;
+  font-family: 'PT Serif', serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.discount .title h3 span {
+  text-transform: uppercase;
+}
+
+.discount .title p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.discount .discountCard {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.discount .discountCard h2 {
+  font-size: 24px;
+  font-family: 'PT Serif', serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.discount .discountCard p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.discount .discountCard .price {
+  font-size: 30px;
+  color: #fe6257;
+  font-weight: bold;
+}
+
+.discount .discountCard .btn {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #65cfb7;
+  width: 186px;
+  height: 42px;
+}
+
+.comments {
+  padding: 70px 0;
+  position: relative;
+}
+
+.comments .comment {
+  margin-bottom: 35px;
+}
+
+.comments .comment h2 {
+  font-size: 30px;
+  font-family: 'PT Serif', serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.comments .comment h4 {
+  font-size: 16px;
+  color: #000000;
+}
+
+.comments .comment .date {
+  font-size: 14px;
+  color: #000000;
+}
+
+.comments .comment p {
+  font-size: 16px;
+  color: #000000;
+  max-width: 483px;
+}
+
+.comments .comment .btngr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comments .comment .btngr button {
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  border: 1px solid #faba29;
+  width: 114px;
+  height: 35px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.comments .comment .btngr a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.comments hr {
+  background: #e6e6e6;
+  height: 50%;
+  width: 2px;
+  position: absolute;
+  right: 50%;
+  top: 28%;
+}
+
+footer {
+  position: relative;
+  background: #212121;
+  padding-bottom: 90px;
+  padding-top: 15px;
+}
+
+footer::before {
+  content: "";
+  background: white;
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+  top: -50px;
+  right: 0%;
+}
+
+footer .title .btngroup {
+  position: relative;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+footer .title .btngroup i {
+  background: #ffa200;
+  color: #212121;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 1.5;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+footer .title h3 {
+  font-size: 24px;
+  font-family: 'PT Serif', serif;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer .title img {
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+footer p {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #ffffff;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.714;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Raleway', sans-serif;
+}
+
+span.red {
+  color: #ff776d;
+}
+
+span.green {
+  color: #afda89;
+}
+
+span.yellow {
+  color: #ffbb44;
+}
+
+span.blue {
+  color: #65cfb7;
+}
+
+span.fial {
+  color: #b3accd;
+}
+
+@media (max-width: 1200px) {
+  .total .post:nth-child(1) {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  .total .post:nth-child(3) {
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@media (max-width: 1025px) {
+  header .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  header .navbar .navbar-collapse form {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .tours::after {
+    display: none;
+  }
+
+  .tours::before {
+    display: none;
+  }
+
+  .tours .car {
+    top: 20%;
+  }
+
+  .tours .car {
+    right: 10%;
+  }
+
+  .gids::after {
+    display: none;
+  }
+
+  .gids::before {
+    display: none;
+  }
+
+  .gids .item h2 {
+    font-size: 25px;
+  }
+
+  .gids .item h3 {
+    font-size: 13px;
+  }
+
+  .register .pupil {
+    bottom: 70%;
+  }
+
+  .total::after {
+    display: none;
+  }
+
+  .total::before {
+    display: none;
+  }
+
+  .discount::after {
+    display: none;
+  }
+
+  .discount::before {
+    display: none;
+  }
+
+  .comments hr {
+    height: 1px;
+    width: 60%;
+    right: 21%;
+    top: 50%;
+  }
+
+  footer::before {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .ekskurs .ekskursTitle {
+    top: 70%;
+  }
+
+  .ekskurs .ekskursTitle {
+    top: 80%;
+  }
+
+  .tours .car {
+    top: 55%;
+  }
+
+  .tours .car {
+    right: 5%;
+  }
+
+  .gids .title {
+    padding-top: 30px;
+  }
+
+  .total .title h3 {
+    font-size: 30px;
+  }
+
+  .comments hr {
+    width: 70%;
+    right: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  header .navbar .navbar-collapse form .number {
+    margin: 15px;
+  }
+
+  header .navbar .navbar-collapse form .btn {
+    margin: 15px;
+  }
+
+  .tours .car {
+    top: 65%;
+  }
+
+  .register .pupil {
+    top: 0%;
+  }
+
+  .comments hr {
+    width: 100%;
+    right: 0%;
+  }
+}
+
+@media (max-width: 400px) {
+  .total .post {
+    -webkit-flex-basis: 300px !important;
+        -ms-flex-preferred-size: 300px !important;
+            flex-basis: 300px !important;
+    height: 300px;
+  }
+}
