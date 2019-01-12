@@ -1,0 +1,767 @@
+header {
+  min-height: 100vh;
+  background: url('../img/headerbg.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  position: relative;
+}
+
+header .sina-nav {
+  position: absolute;
+  width: 100%;
+}
+
+header .sina-nav .extension-nav {
+  background: url('../img/menubg.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+header .sina-nav .extension-nav ul li.search a {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #fdfeff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+header .sina-nav .extension-nav ul li a {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #fefeff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+header .sina-nav .widget-bar {
+  background: url('../img/menubg.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+header .headerBody {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+header .headerBody .headerTitle {
+  margin: auto;
+  margin-left: 12%;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+header .headerBody .headerTitle h2 {
+  font-size: 110px;
+  font-family: "Open Sans";
+  color: #244e84;
+  line-height: .636;
+  font-weight: 700;
+}
+
+header .headerBody .headerTitle h2::after {
+  content: "Welcome";
+  font-size: 12px;
+  color: #404040;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+}
+
+header .headerBody .headerTitle h1 {
+  font-size: 223px;
+  font-family: "Open Sans";
+  color: #244e84;
+  line-height: 0.807;
+  font-weight: 700;
+}
+
+header .headerBody .headerTitle h1::after {
+  content: "The only one free psd templates of ever";
+  font-size: 12px;
+  color: #404040;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6.6%;
+}
+
+header .form {
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+header .form .input-container {
+  position: relative;
+  width: 20%;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+}
+
+header .form .input-container img {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+header .form .input-container input {
+  border: none;
+  border-bottom: 1px solid #f1a014;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .form .input-container input::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .form .input-container input::-moz-placeholder {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .form .input-container input:-ms-input-placeholder {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .form .input-container input::-ms-input-placeholder {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .form .input-container input::placeholder {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .form .btn {
+  background-color: #f1a014;
+  width: 170px;
+  height: 45px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-border-radius: 0%;
+          border-radius: 0%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.hotels {
+  padding-top: 86px;
+  padding-bottom: 80px;
+  background: url('/img/hotelsbg.png') center;
+  position: relative;
+}
+
+.hotels .slide-count-wrap {
+  text-align: center;
+}
+
+.hotels .slide-count-wrap .current {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: #404040;
+  text-transform: uppercase;
+}
+
+.hotels .slide-count-wrap .total {
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #f1a014;
+  text-transform: uppercase;
+}
+
+.hotels .slider .card {
+  margin: 15px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.hotels .slider .card .card-img-top {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.hotels .slider .card .card-body h5 {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hotels .slider .card .card-body p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #f1a014;
+}
+
+.hotels .slider .slick-dots {
+  right: 15px;
+  top: -10%;
+  text-align: end;
+}
+
+.hotels .slider .slick-dots li {
+  width: 12px;
+}
+
+.hotels .slider .slick-dots li button::before {
+  font-size: 50px;
+}
+
+.travel {
+  background: url('../img/travel.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 200px;
+}
+
+.travel .title {
+  text-align: start;
+  max-width: 468px;
+  margin-left: auto;
+}
+
+.travel .title h3 {
+  margin-bottom: 30px;
+}
+
+.travel .title h6 {
+  margin-bottom: 35px;
+}
+
+.travel .title p {
+  margin-bottom: 35px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #7a7a7a;
+  line-height: 1.286;
+}
+
+.travel .title p a {
+  color: #f1a014;
+}
+
+.travel .title button {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f1a014;
+  width: 170px;
+  height: 45px;
+}
+
+.tours {
+  background: url('../img/toursbg.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 90px 0;
+}
+
+.tours .title {
+  text-align: center;
+}
+
+.tours .title h3 {
+  color: #ffffff;
+}
+
+.tours .popular {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tours .popular .card {
+  position: relative;
+  /*  width: 30%;.lg(width, 40%);.sm(width, 100%); */
+  max-width: 370px;
+  margin: 15px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.tours .popular .card .card-img-top {
+  -webkit-border-radius: 0;
+          border-radius: 0;
+}
+
+.tours .popular .card .card-body h5 {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tours .popular .card .card-body p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #f1a014;
+}
+
+.tours .popular .card .card-body .icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.tours .popular .card .card-body .icons i {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tours .popular .card .card-body .icons i p {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: rgba(64, 64, 64, 0.502);
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  margin: 0 8px;
+  margin-bottom: 8px;
+}
+
+.tours .popular .card .card-body .icons i img {
+  display: block;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin: 0 8px;
+}
+
+.tours .popular .card .card-body .icons i img:nth-child(1) {
+  margin-left: 0;
+}
+
+.tours .popular .card .card-body .icons a {
+  font-size: 26px;
+  font-family: "Open Sans";
+  color: #f1a014;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tours .popular .card .rent {
+  position: absolute;
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: url('../img/rental.png') center;
+  padding: 10px;
+  left: 5%;
+}
+
+.people {
+  padding-top: 85px;
+  padding-bottom: 80px;
+}
+
+.people .title {
+  text-align: center;
+}
+
+.people .slider .item {
+  text-align: center;
+  margin: 15px;
+}
+
+.people .slider .item img {
+  width: 150px;
+  margin: auto;
+}
+
+.people .slider .item h3 {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.people .slider .item p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #404040;
+  line-height: 1.714;
+  text-align: center;
+  max-width: 363px;
+  margin: auto;
+}
+
+.people .slider .slick-dots {
+  bottom: -50px;
+}
+
+.people .slider .slick-dots li {
+  width: 12px;
+}
+
+.people .slider .slick-dots li button::before {
+  font-size: 50px;
+}
+
+footer {
+  background: url('../img/bgfooter.png') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 65px;
+}
+
+footer h1 {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.702);
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li p {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 2.143;
+}
+
+footer ul li a {
+  text-decoration: none !important;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.502);
+  line-height: 2.143;
+  text-transform: capitalize;
+}
+
+footer ul li.adress {
+  font-size: 12px;
+  font-family: 'Myriad Pro';
+  color: #ababab;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+footer ul li.news {
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: #6c6c6c;
+  line-height: 2.5;
+  margin-bottom: 20px;
+}
+
+footer ul li.search {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+footer ul li.search input {
+  width: 100%;
+  background-color: #ffffff;
+  height: 40px;
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  border: none;
+  padding-left: 25px;
+}
+
+footer ul li.search input::-webkit-input-placeholder {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #969696;
+  text-transform: uppercase;
+}
+
+footer ul li.search input::-moz-placeholder {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #969696;
+  text-transform: uppercase;
+}
+
+footer ul li.search input:-ms-input-placeholder {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #969696;
+  text-transform: uppercase;
+}
+
+footer ul li.search input::-ms-input-placeholder {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #969696;
+  text-transform: uppercase;
+}
+
+footer ul li.search input::placeholder {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #969696;
+  text-transform: uppercase;
+}
+
+footer ul li.search button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  -webkit-border-top-right-radius: 20px;
+          border-top-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  z-index: 5;
+  border: none;
+  background: #f1a014;
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  width: 94px;
+}
+
+footer ul li.icons .fa {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c1c1c1;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #fefeff;
+  font-size: 12px;
+  color: #7a7a7a;
+  width: 24px;
+  height: 26px;
+  text-align: center;
+  line-height: 2;
+  margin: 0 4px;
+}
+
+body {
+  min-width: 320px;
+}
+
+.stars {
+  text-decoration: none;
+}
+
+.stars i {
+  color: #f1a014;
+  width: 19px;
+  height: 19px;
+}
+
+.stars i:nth-child(5) {
+  color: #ddd;
+}
+
+.title h3 {
+  font-size: 50px;
+  font-family: "Open Sans";
+  color: #7a7a7a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title h6 {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #404040;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  header .form .input-container {
+    width: 18%;
+  }
+}
+
+@media (max-width: 992px) {
+  header .headerBody .headerTitle {
+    margin-left: 10%;
+  }
+
+  header .form .input-container {
+    width: 24%;
+  }
+
+  header .form .btn {
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  header .sina-nav .extension-nav ul {
+    padding: 0;
+  }
+
+  header .headerBody .headerTitle h2 {
+    font-size: 80px;
+  }
+
+  header .headerBody .headerTitle h1 {
+    font-size: 150px;
+  }
+
+  header .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  header .form .input-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  header .sina-nav .extension-nav ul li {
+    padding: 12% 10px;
+  }
+
+  header .sina-nav .extension-nav ul li.phone span {
+    display: none;
+  }
+
+  header .sina-nav .sina-brand h1 {
+    font-size: 30px !important;
+  }
+
+  header .headerBody .headerTitle {
+    margin-left: 5%;
+  }
+
+  .travel .title h3 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  header .headerBody .headerTitle {
+    margin-left: auto;
+  }
+
+  header .headerBody .headerTitle h2 {
+    font-size: 50px;
+  }
+
+  header .headerBody .headerTitle h2::after {
+    -webkit-writing-mode: lr;
+        -ms-writing-mode: lr;
+            writing-mode: lr;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 1.6;
+    margin-left: 2%;
+  }
+
+  header .headerBody .headerTitle h1 {
+    font-size: 100px;
+  }
+}
