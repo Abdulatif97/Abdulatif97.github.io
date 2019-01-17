@@ -67,7 +67,7 @@ header .sina-nav .search-box form .close-search i {
 
 .headerBody {
   min-height: 100vh;
-  background: url('../img/headerBg.png') center;
+  background: url('../img/headerBg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
@@ -290,7 +290,7 @@ header .sina-nav .search-box form .close-search i {
 }
 
 .work {
-  background: url('../img/workBg.png') center;
+  background: url('../img/workBg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   min-height: 100vh;
@@ -377,7 +377,7 @@ header .sina-nav .search-box form .close-search i {
 }
 
 .iphone {
-  background: url('../img/iPhonebg.png') center;
+  background: url('../img/iPhonebg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   min-height: 100vh;
@@ -780,7 +780,7 @@ footer h3 {
 
 .uslugi-intro {
   min-height: 100vh;
-  background: url('../img/uslugiBg.png') center;
+  background: url('../img/uslugiBg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
@@ -807,7 +807,7 @@ footer h3 {
 
 .pages-intro {
   min-height: 100vh;
-  background: url('../img/pagesBg.png') center;
+  background: url('../img/pagesBg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
@@ -1011,7 +1011,7 @@ footer h3 {
 
 .solutions-intro {
   min-height: 100vh;
-  background: url('../img/resheniyaBg.png') center;
+  background: url('../img/resheniyaBg.png')  100% 100% no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
