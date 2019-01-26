@@ -1,0 +1,7 @@
+nav ul.navbar-nav {
+  margin-left: auto; }
+  nav ul.navbar-nav li.nav-item a.nav-link {
+    text-transform: uppercase; }
+
+.header-section {
+  background-color: red; }

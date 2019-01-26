@@ -1,0 +1,79 @@
+.btn{
+	padding: 13px 35px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Rubik-Regular';
+	cursor: pointer;
+	border-radius: 5px; 
+	border: none;
+	color: $font-grey;
+
+	img{
+		margin-right: 10px;
+	}
+
+	&:focus{
+		outline: none;
+		box-shadow: none;
+	}	
+}
+
+button.more-news{
+	margin-top: 20px;
+	background-color: $font-blue;
+	padding: 12px 20px; 
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	transition: all .3s ease;
+}
+
+button.mobile-helper-btn{
+	padding: 12px 20px;
+	background-color: $font-blue;
+  	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	transition: all .3s ease;
+
+	i{
+		margin-left: 5px;
+	}
+}
+
+
+button.download-pdf{
+	background-color: #FFD377;
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	margin-bottom: 20px;
+	width: 256px;
+	transition: all .3s ease;
+}
+
+
+button.newspaper-search{
+	background-color: $font-blue;
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	padding: 13px 33px;
+	width: 256px;
+	transition: all .3s ease;
+}
+
+
+.video-blog-news-btn{
+	padding: 13px 20px;
+	background-color: $font-blue;
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	transition: all .3s ease;
+}
+
+.btn.send{
+	background-color: $font-blue;
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	padding: 13px 23px;
+	transition: all .3s ease;
+}
+
+button.send-question{
+	background-color: $font-blue;
+	box-shadow: inset 0px -3px 0px 0px rgba(197,157,84, 1);
+	padding: 13px 40px;
+	margin-top: 50px;
+	transition: all .3s ease;
+}

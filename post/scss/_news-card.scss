@@ -1,0 +1,262 @@
+.news-card-wrapper{
+	margin-top: 30px;
+
+	.news-card{
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+		border-radius: 5px;
+		margin-bottom: 30px;
+
+		a{
+			display: block;
+
+			.news-card-img{
+				position: relative;
+
+				.news-card-label{
+					position: absolute;
+					color: #fff;
+				    left: 10px;
+				    bottom: 10px;
+				    border-radius: 3px;
+				    padding: 2px 5px;
+					font-size: 12px;
+					font-family: 'Montserrat-Medium';
+					background-color: rgba(0, 0, 0, .5);
+				}
+			}
+
+			.news-card-text-wrapper{
+				background-color: #fff;
+				padding: 15px;
+				border-radius: 0 0 5px 5px;
+
+				.news-card-text{
+					color: $font-grey;
+					font-size: 16px;
+					font-family: 'Montserrat-Medium';
+					line-height: 1.2;
+					height: 58px;
+					overflow: hidden;
+					margin-bottom: 16px;
+					
+				}
+
+				ul.news-card-time{
+					display: flex;
+					align-items: center; 
+					position: relative;
+
+					li{
+						font-size: 12px;
+						color: $font-light-grey;
+						
+
+						span{
+							font-family: 'Rubik-Regular';
+							margin-left: 3px;
+						}
+
+						&:nth-child(2){
+							position: relative;
+							margin-left: 6px;
+
+							span{
+								margin-left: 6px;
+							}
+							
+							&:after{
+								content: '';
+							    position: absolute;
+							    background-color: #999999;
+							    width: 1px;
+							    height: 13px;
+							    top: 1px;
+							    
+							}
+						}
+
+						&:nth-child(3){
+							margin-left: 15px;
+
+							@media(max-width: 1200px){
+								margin-left: 8px;
+							}
+						}
+					}
+
+					> div{
+						
+						position: absolute;
+					    right: 10px;
+					    opacity: 0;
+					    visibility: hidden;
+
+					    i{
+					    	color: $font-blue;
+					    	
+					    }
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.news-card-full-wrapper{
+
+	.news-card-full{
+		min-height: 160px;
+		height: 160px;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+		margin-bottom: 30px;
+		overflow: hidden;
+
+		a{
+			display: flex;
+			
+
+			.news-card-full-img{
+				position: relative;
+
+				.news-card-label{
+					position: absolute;
+					color: #fff;
+				    left: 10px;
+				    bottom: 10px;
+				    border-radius: 3px;
+				    padding: 2px 5px;
+					font-size: 12px;
+					font-family: 'Montserrat-Medium';
+					background-color: rgba(0, 0, 0, .5);
+				}
+
+				img{
+					width: 200px;
+					height: 160px;
+					object-fit: cover;
+					border-radius: 5px 0 0 5px;
+				}
+			}
+
+			.news-card-full-text-wrapper{
+				overflow: hidden;
+				background-color: #fff;
+				border-radius: 0 5px 5px 0;
+				padding: 18px 20px;
+				
+
+				h3, p, .news-card-full-short-text{
+					font-size: 14px;
+					color: $font-grey;
+					
+				}
+
+				h3{
+					font-family: 'Montserrat-Bold';
+					margin-bottom: 10px;
+				}
+
+				p, .news-card-full-short-text{
+					font-family: 'Montserrat-Medium';
+					margin-bottom: 10px;
+				}
+
+				.news-card-full-short-text{
+					text-overflow: ellipsis;
+				    white-space: nowrap;
+				    overflow: hidden;
+				}
+
+				ul.news-card-time{
+					display: flex;
+					align-items: center; 
+					position: relative;
+
+					li{
+						font-size: 12px;
+						color: $font-light-grey;
+						
+
+						span{
+							font-family: 'Rubik-Regular';
+							margin-left: 3px;
+						}
+
+						&:nth-child(2){
+							position: relative;
+							margin-left: 6px;
+
+							span{
+								margin-left: 6px;
+							}
+							
+							&:after{
+								content: '';
+							    position: absolute;
+							    background-color: #999999;
+							    width: 1px;
+							    height: 13px;
+							    top: 1px;
+							    
+							}
+						}
+
+						&:nth-child(3){
+							margin-left: 15px;
+						}
+					}
+
+					> div{
+						
+						position: absolute;
+					    right: 10px;
+					    opacity: 0;
+					    visibility: hidden;
+
+					    i{
+					    	color: $font-blue;
+					    	
+					    }
+					}
+				}
+			}
+
+			&:hover{
+
+				.news-card-full-text-wrapper{
+					background-color: $font-blue;
+
+					h3, p, .news-card-full-short-text{
+						color: $font-grey;
+					}
+
+					ul.news-card-time{
+
+						li{
+							color: #46535b;
+
+							&:nth-child(2){
+								
+								&:after{
+								    background-color: #46535b;
+								}
+							}
+							
+						}
+
+						> div{
+						    right: 0px;
+						    visibility: visible;
+						    opacity: 1;
+
+						    i{
+						    	color: #46535b;
+						    }
+						}
+					}
+				}
+			}
+		}
+	}
+}
