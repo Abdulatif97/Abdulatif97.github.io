@@ -1,4 +1,7 @@
 window.addEventListener('load',  function (e) {
+ 
+        $("#preloader").delay(700).fadeOut("slow");
+   
  var elem = document.querySelector('.text');
  var str = elem.innerHTML;
  elem.innerHTML = '';
