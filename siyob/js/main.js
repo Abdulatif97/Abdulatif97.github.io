@@ -308,8 +308,9 @@ jQuery(document).ready(function($) {
         // effect: 'coverflow',
         effect: 'slide',
         speed: 1500,
-        
-        // mousewheel: true,     
+         directionLock: true,
+        // mousewheel: true,   
+          touchReleaseOnEdges: true,  
         paralax: true,
         roundLengths: true,
         simulateTouch: false,
