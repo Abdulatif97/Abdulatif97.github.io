@@ -281,7 +281,17 @@ jQuery(document).ready(function($) {
   		setTimeout(function(){ goScroll = false; }, 1000);
   	}
 
-
+		var lastScrollTop = 0;
+			$(window).on('scroll', function() {
+				st = $(this).scrollTop();
+				if(st < lastScrollTop) {
+					windowScroll(0);
+				}
+				else if(st > lastScrollTop) {
+					windowScroll(1);
+				}
+				lastScrollTop = st;
+			});
 
 // swipper slider
 
