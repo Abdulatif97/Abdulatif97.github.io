@@ -304,7 +304,7 @@ jQuery(document).ready(function($) {
 
       //
       var swiper = new Swiper('.swiper-container', {
-     //   direction: 'vertical',
+        direction: 'vertical',
         // effect: 'coverflow',
         effect: 'slide',
         speed: 1500,
