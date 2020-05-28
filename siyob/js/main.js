@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
     $('#select-Vacansy').styler();
 
     // lang fom animation in width > 767px
-    var mixl767 = window.matchMedia('all and (min-width: 320px)');
+    var mixl767 = window.matchMedia('all and (min-width: 767px)');
       if(mixl767.matches){
         const btn = document.querySelector("#langBtn");
         const item = document.querySelectorAll(".lang__item");
