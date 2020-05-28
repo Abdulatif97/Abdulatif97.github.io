@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
     $('#select-Vacansy').styler();
 
     // lang fom animation in width > 767px
-    var mixl767 = window.matchMedia('all and (min-width: 767px)');
+    var mixl767 = window.matchMedia('all and (min-width: 320px)');
       if(mixl767.matches){
         const btn = document.querySelector("#langBtn");
         const item = document.querySelectorAll(".lang__item");
@@ -223,17 +223,17 @@ jQuery(document).ready(function($) {
 
 		// Firefox or IE 11
 		if(typeof InstallTrigger !== 'undefined' || iev == 11) {
-// 			var lastScrollTop = 0;
-// 			$(window).on('scroll', function() {
-// 				st = $(this).scrollTop();
-// 				if(st < lastScrollTop) {
-// 					windowScroll(0);
-// 				}
-// 				else if(st > lastScrollTop) {
-// 					windowScroll(1);
-// 				}
-// 				lastScrollTop = st;
-// 			});
+			var lastScrollTop = 0;
+			$(window).on('scroll', function() {
+				st = $(this).scrollTop();
+				if(st < lastScrollTop) {
+					windowScroll(0);
+				}
+				else if(st > lastScrollTop) {
+					windowScroll(1);
+				}
+				lastScrollTop = st;
+			});
 		}
 		// Other browsers
 		else {
@@ -247,21 +247,21 @@ jQuery(document).ready(function($) {
 				}
 			});
 	} else {
-// 		var lastY;
-// 		$(document).bind("touchstart", function(e) {
-// 			lastY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
-// 		});
-// 		$(document).bind("touchmove mousemove", function(e) {
-// 		var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
-// 		if (Math.abs(currentY-lastY) < 15) { return; }
-// 		if (currentY > lastY) {
-// 			windowScroll(0);
-// 			console.log("down");
-// 		} else {
-// 			windowScroll(1);
-// 			console.log("up");
-// 		}
-// 		});
+		var lastY;
+		$(document).bind("touchstart", function(e) {
+			lastY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
+		});
+		$(document).bind("touchmove mousemove", function(e) {
+		var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
+		if (Math.abs(currentY-lastY) < 15) { return; }
+		if (currentY > lastY) {
+			windowScroll(0);
+			console.log("down");
+		} else {
+			windowScroll(1);
+			console.log("up");
+		}
+		});
 	}	
 	
   	
