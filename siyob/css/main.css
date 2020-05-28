@@ -3204,5 +3204,5 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
 }
 
 .swiper-slide-active {
-	z-index: 999999999;
+	z-index: unset;
 }
