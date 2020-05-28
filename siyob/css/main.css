@@ -2491,6 +2491,9 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
 
   .slider-top {
     padding: 0;
+	  height: 100%;
+    overflow: auto;
+	      flex-basis: 100%;
   }
 
   .slider-item {
