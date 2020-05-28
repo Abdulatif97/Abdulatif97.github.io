@@ -308,7 +308,7 @@ jQuery(document).ready(function($) {
         // effect: 'coverflow',
         effect: 'slide',
         speed: 1500,
-        directionLock: false,
+        
         // mousewheel: true,     
         paralax: true,
         roundLengths: true,
