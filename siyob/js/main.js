@@ -317,6 +317,7 @@ jQuery(document).ready(function($) {
         grabCursor: false,
         watchSlidesProgress: false,
         updateOnImagesReady: false,
+	      cssMode: true,
         followFinger: false,
         touchEventsTarget: ".swiper-container",
         // loopAdditionalSlides: 10,
