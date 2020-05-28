@@ -299,7 +299,60 @@ jQuery(document).ready(function($) {
         menu122.push(el.text);
       });
 
+(function() {
 
+if(!('ontouchend' in document)) return;
+var pageX, pageY, newX, newY, linked;
+
+jQuery('.rev_slider').on('touchstart', function(event) {
+
+    newX = newY = false;
+
+    var target = jQuery(event.target),
+    clas = target.attr('class');
+    event = event.originalEvent;
+
+    if(event.touches) event = event.touches[0];
+    pageX = event.pageX;
+    pageY = event.pageY;
+
+    if(target.is('a') || target.closest('a').length) linked = target;
+
+}).on('touchmove', function(event) {
+
+    event = event.originalEvent;
+    if(event.touches) event = event.touches[0];
+
+    newX = event.pageX;
+    newY = event.pageY;
+    if(Math.abs(pageX - newX) > 10) event.preventDefault();
+
+}).on('touchend', function(event) {
+
+    if(newX !== false && Math.abs(pageX - newX) > 30) {
+
+        eval('revapi' + jQuery(this).closest('.rev_slider_wrapper').attr('id').split('rev_slider_')[1].split('_')[0])[pageX > newX ? 'revnext' : 'revprev']();
+
+    }
+    else if((linked && newY === false) || (linked && Math.abs(pageY - newY) < 10)) {
+
+        linked = linked.is('a') ? linked : linked.closest('a');
+        if(linked.length) {
+
+            if(linked.attr('target') === '_blank') {    
+                window.open(linked.attr('href'));
+            }
+            else {
+                window.location = linked.attr('href');
+            }
+
+        }
+
+    }
+
+    linked = newX = false;
+
+});})();
 
 
       //
@@ -317,7 +370,7 @@ jQuery(document).ready(function($) {
         grabCursor: false,
         watchSlidesProgress: false,
         updateOnImagesReady: false,
-	      cssMode: true,
+	  
         followFinger: false,
         touchEventsTarget: ".swiper-container",
         // loopAdditionalSlides: 10,
