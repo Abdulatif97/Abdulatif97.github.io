@@ -247,21 +247,21 @@ jQuery(document).ready(function($) {
 				}
 			});
 	} else {
-		var lastY;
-		$(document).bind("touchstart", function(e) {
-			lastY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
-		});
-		$(document).bind("touchmove mousemove", function(e) {
-		var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
-		if (Math.abs(currentY-lastY) < 15) { return; }
-		if (currentY > lastY) {
-			windowScroll(0);
-			console.log("down");
-		} else {
-			windowScroll(1);
-			console.log("up");
-		}
-		});
+// 		var lastY;
+// 		$(document).bind("touchstart", function(e) {
+// 			lastY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
+// 		});
+// 		$(document).bind("touchmove mousemove", function(e) {
+// 		var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
+// 		if (Math.abs(currentY-lastY) < 15) { return; }
+// 		if (currentY > lastY) {
+// 			windowScroll(0);
+// 			console.log("down");
+// 		} else {
+// 			windowScroll(1);
+// 			console.log("up");
+// 		}
+// 		});
 	}	
 	
   	
