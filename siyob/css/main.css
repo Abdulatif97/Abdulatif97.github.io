@@ -218,6 +218,7 @@ button:focus {
 ::-webkit-scrollbar-corner,
 ::-webkit-scrollbar-track {
   background-color: #fff;
+
 }
 
 ::-webkit-scrollbar {
@@ -2491,9 +2492,6 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
 
   .slider-top {
     padding: 0;
-	  height: 100%;
-    overflow: auto;
-	      flex-basis: 100%;
   }
 
   .slider-item {
@@ -2858,8 +2856,6 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
   .swiper-slide {
     max-width: 100%;
     width: 100%;
-	    overflow: auto;
-	  
   }
 
   .booot {
