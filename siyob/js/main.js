@@ -223,17 +223,17 @@ jQuery(document).ready(function($) {
 
 		// Firefox or IE 11
 		if(typeof InstallTrigger !== 'undefined' || iev == 11) {
-			var lastScrollTop = 0;
-			$(window).on('scroll', function() {
-				st = $(this).scrollTop();
-				if(st < lastScrollTop) {
-					windowScroll(0);
-				}
-				else if(st > lastScrollTop) {
-					windowScroll(1);
-				}
-				lastScrollTop = st;
-			});
+// 			var lastScrollTop = 0;
+// 			$(window).on('scroll', function() {
+// 				st = $(this).scrollTop();
+// 				if(st < lastScrollTop) {
+// 					windowScroll(0);
+// 				}
+// 				else if(st > lastScrollTop) {
+// 					windowScroll(1);
+// 				}
+// 				lastScrollTop = st;
+// 			});
 		}
 		// Other browsers
 		else {
