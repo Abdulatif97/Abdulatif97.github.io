@@ -2788,16 +2788,111 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
     font-size: 100px;
   }
 }
-
-@media (max-width: 560px) {
-  .btn-more {
-    font-size: 0.7em;
+@media (max-width: 576px) {
+  .slider-item {
+    justify-content: space-around;
   }
-}
+  .slider-item.section-3,.slider-item.section-5,.slider-item.section-4 {
+    padding-top: 65px;
+    padding-bottom: 0;
+  }
+  
+  .c-form-item input, .c-form-item textarea {
+    padding: 6px 0 2px;
+  }
+  
+  .c-form__title {
+    font-size: 16px;
+  } 
 
-@media (max-width: 559px) {
+  .c-form-item, .c-form-item.submit {
+    max-width: 50%;
+    flex: 50%;
+  }
+  .c-form-item textarea {
+    min-height: 40px;
+    max-height: 40px;
+    margin-top: -10px;
+  }
+  .contact-item img {
+    display: none;
+  }
+  .slider-item__info {
+    max-width: 100%;
+    margin: 0 auto 10px !important;
+  }
+  .page-main .slider-top h2 {
+    font-size: 35px !important;
+  }
+  .page-main .slider-top p, .page-main .slider-top li {
+    font-size: 14px !important;
+  }
+  .btn-more {
+    font-size: 12px;
+  }
+  nav#nav-test {
+    left: 0px;
+    right: 15px;
+    padding: 0 5px 0 15px;
+  }
+  .contact-item a {
+    min-height: auto;
+    font-size: 12px;
+    padding-left: 0;
+    text-align: center;
+  }
+  .slider-top h2 {
+    font-size: 70px;
+  }
+  .modal-link {
+    font-size: 15px;
+    padding: 16px 10px;
+  }
+  .slider-item {
+    padding: 70px 2px 60px;
+  }
+  .custom-navbar{
+    right: 3%;
+  }
+  .slider-video .video-player {
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 14vh;
+    margin: 20px auto 0;
+  }
+
+  .contact-bl {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .c-form-item label {
+    font-size: 12px;
+  }
+
+  .c-form-item input,
+  .c-form-item textarea {
+    font-size: 12px;
+  }
+
+  .c-form-item input[type="submit"] {
+    width: 35px;
+    height: 35px;
+    background-size: 50% 50%;
+  }
+
+  .page-main .slider-top {
+    max-width: 88%;
+  }
+  .career-bl__item .career-item {
+    min-height: 14vh !important;
+    max-height: 14vh !important;
+}
   .part-item {
-    height: 90px;
+    height: 55px;
+    margin-bottom: 15px;
   }
 
   .formapp-item.item-big{
@@ -2834,6 +2929,13 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
     max-width: 95%;
   }
 }
+@media (max-width: 560px) {
+  .btn-more {
+    font-size: 0.7em;
+  }
+}
+
+
 
 @media (max-width: 549px) {
   .wrapper {
@@ -2931,52 +3033,8 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
 }
 
 @media (max-width: 479px) {
-  nav#nav-test {
-    left: 0px;
-    right: 15px;
-    padding: 0 5px 0 15px;
-  }
-
-  .slider-top h2 {
-    font-size: 70px;
-  }
-
-  .slider-item {
-    padding: 100px 2px 60px;
-  }
-  .custom-navbar{
-    right: 3%;
-  }
-  .slider-video .video-player {
-    max-width: 90%;
-    min-width: 90%;
-    min-height: 150px;
-    margin: 20px auto 0;
-  }
-
-  .contact-bl {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .c-form-item label {
-    font-size: 12px;
-  }
-
-  .c-form-item input,
-  .c-form-item textarea {
-    font-size: 12px;
-  }
-
-  .c-form-item input[type="submit"] {
-    width: 50px;
-    height: 50px;
-    background-size: 50% 50%;
-  }
-
-  .page-main .slider-top {
-    max-width: 88%;
-  }
+  
+ 
 }
 
 @media (max-width: 430px) {
@@ -3005,6 +3063,9 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
   #slider-bottom {
     margin-left: 80px;
   }
+  .slider-item__info {
+    font-size: 12px;
+  }
 
   .custom-navbar__item {
     margin: 0 5px;
@@ -3019,10 +3080,10 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
   .part {
     max-width: 375px;
   }
-  .career-bl__item .career-item{
+  /* .career-bl__item .career-item{
     min-height: 120px;
     max-height: 120px;
-  }
+  } */
 }
 
 @media (max-width: 374px) {
@@ -3031,7 +3092,7 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
   }
 
   .slider-top h2 {
-    font-size: 55px;
+    font-size: 38px;
   }
 
   .slider-item__name {
@@ -3204,5 +3265,5 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
 }
 
 .swiper-slide-active {
-	z-index: unset;
+	z-index: 999999999;
 }
