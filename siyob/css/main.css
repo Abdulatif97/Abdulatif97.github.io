@@ -2793,8 +2793,8 @@ _:-ms-fullscreen, :root .slider-item {padding-top: 80px !important;}
     justify-content: space-around;
   }
   .slider-item.section-3,.slider-item.section-5,.slider-item.section-4 {
-    padding-top: 65px;
-    padding-bottom: 0;
+    padding-top:0 !important;
+    padding-bottom: 0 !important;
   }
   
   .c-form-item input, .c-form-item textarea {
