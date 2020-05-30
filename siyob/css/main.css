@@ -931,7 +931,9 @@ nav#nav-test #nav-container ul li.swiper-pagination-bullet-active[data-animation
   -ms-background-size: cover;
   background-size: cover;
 }
-
+  .owl-stage {
+    transition: width 0.4s ease-in-out 0s !important;
+}
 .swiper-button-next,
 .swiper-button-prev {
   position: static;
