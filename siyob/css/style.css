@@ -13833,8 +13833,9 @@ _:-ms-fullscreen, :root .swipe-btn-top:after {
   background: transparent; }
 
 .owl-stage {
-  -webkit-transition: width 0.4s ease-in-out 0s !important;
-  transition: width 0.4s ease-in-out 0s !important; }
+  -webkit-transition: width .2s, transform .195s !important; 
+ transition: width .2s, transform .195s !important; 
+}
 
 .works-block {
   display: block; }
