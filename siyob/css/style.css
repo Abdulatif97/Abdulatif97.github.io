@@ -13833,8 +13833,7 @@ _:-ms-fullscreen, :root .swipe-btn-top:after {
   background: transparent; }
 
 .owl-stage {
-  -webkit-transition: width .2s, transform .195s !important; 
- transition: width .2s, transform .195s !important; 
+ transition: width 0.6s, transform 0.6s, -webkit-transform 0.6s, cubic-bezier(0.65, 0.05, 0.36, 1) 0.57s !important; 
 }
 
 .works-block {
